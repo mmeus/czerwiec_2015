@@ -32,11 +32,11 @@ for ck in cyfry_kontrolne:
 kody_kreskowe = []
 
 for i in range(len(kody)):
-    kod = '11011010'
+    kod = '11011010' #start
     for j in kody[i]:
-        kod += slownik[j]
-    kod += slownik[str(cyfry_kontrolne[i])]
-    kod += '11010110'
+        kod += slownik[j] #odpowiedniki cyfr w slowniku
+    kod += slownik[str(cyfry_kontrolne[i])] #cyfra kontrolna
+    kod += '11010110' #stop
     kody_kreskowe.append(kod)
 
 print(kody_kreskowe)
