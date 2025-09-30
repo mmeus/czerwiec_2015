@@ -5,9 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="acba7618-ea1f-44fd-85a5-3b54b907e64d" name="Changes" comment="sdsadasd">
-      <change afterPath="$PROJECT_DIR$/cyfra_kodkreskowy.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kody.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/czerwiec_2015.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/czerwiec_2015.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/zad6.py" beforeDir="false" afterPath="$PROJECT_DIR$/zad6.py" afterDir="false" />
     </list>
@@ -87,7 +84,15 @@
       <option name="project" value="LOCAL" />
       <updated>1759236610320</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="sdsadasd">
+      <option name="closed" value="true" />
+      <created>1759238614407</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1759238614407</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

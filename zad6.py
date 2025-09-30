@@ -29,3 +29,14 @@ for ck in cyfry_kontrolne:
     plik_kody2.write(f'{ck} {slownik[str(ck)]}\n')
 
 #6.3
+kody_kreskowe = []
+
+for i in range(len(kody)):
+    kod = '11011010'
+    for j in kody[i]:
+        kod += slownik[j]
+    kod += slownik[str(cyfry_kontrolne[i])]
+    kod += '11010110'
+    kody_kreskowe.append(kod)
+
+print(kody_kreskowe)
